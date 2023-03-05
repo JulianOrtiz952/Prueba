@@ -1,0 +1,67 @@
+body{
+    font-weight: 700;
+    background-color: #222;
+    color : #FFFF;
+    margin: 0;
+    font-size: 1.5rem;
+}
+html{
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif; 
+}
+header {
+    background-image: url("https://2.bp.blogspot.com/-5FCkGSDsEI8/XAXiAQVsM1I/AAAAAAADZ0g/BpE0GxqChjQBHWvbl1BYcoHGCI6qK7qxQCLcBGAs/s1600/hermosos%2By%2Bfascinantes%2Bpaisajes%2Bde%2Binvierno%2Bpara%2Bfondos%2Bde%2Bcomputadoras%2Bde%2Bescritorio%2Blaptops%2Btablets%2By%2Bipad%2Bwinter%2Blandscapes%2Bbackgrounds.jpg");
+    
+}
+
+p {
+    border: 1px solid white;
+}
+p:hover{
+    background-color:  orange;
+    color:#222;
+}
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+/* clases reutilizables*/
+.contenedor{
+    max-width: 1024px;
+    min-width: auto;
+    padding: 0 1rem;
+
+}
+.Logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+.header .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+li {
+    font-size: 1.5rem;
+}
+.nav__lista{
+    display: flex;
+}
+
+.logo__text{
+    align-items: center;
+}
